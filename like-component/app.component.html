@@ -1,0 +1,15 @@
+<h1>Angular</h1>
+<app-authors></app-authors>
+<app-star [is-active]="post.isActive" (change)="onFavouriteChanged($event)"></app-star>
+<!--isFavourite - input property, onFavouriteChange - output proroperty-->
+<capitalize-text></capitalize-text>
+<bootstrap-panel>
+    <ng-container class="header">Heading</ng-container>
+    <ng-container class="block">
+        <h2>Body</h2>
+        <p>Some text...</p>
+    </ng-container>
+</bootstrap-panel>
+<app-like [likesCount]="tweet.likesCount" [isActive]="tweet.isLiked">
+   <!-- <ng-container class="count">{{ tweet.likesCount }}</ng-container> -->
+</app-like>
