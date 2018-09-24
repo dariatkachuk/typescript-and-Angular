@@ -1,0 +1,14 @@
+.glyphicon {
+    font-size: 40px;
+    margin-right: 20px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.isLiked {
+    color: deeppink;
+}
+
+.count {
+    font-size: 47px;
+}
